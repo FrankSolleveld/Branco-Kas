@@ -1,24 +1,219 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FJK-pm-gn4">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Temperature-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Temperature" id="BYZ-38-t0r" customClass="ViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="25" minimumValue="20" maximumValue="30" translatesAutoresizingMaskIntoConstraints="NO" id="yze-BN-4n5">
+                                <rect key="frame" x="140.66666666666666" y="484.66666666666669" width="94" height="29.000000000000057"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="94" id="5Jx-Fk-DJ3"/>
+                                    <constraint firstAttribute="height" constant="29" id="5qj-AN-769"/>
+                                </constraints>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <action selector="stepper:" destination="BYZ-38-t0r" eventType="valueChanged" id="Efc-8M-4bT"/>
+                                </connections>
+                            </stepper>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="25°C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pai-dM-WHZ">
+                                <rect key="frame" x="134.66666666666666" y="377.66666666666669" width="106" height="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="47"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperatuur" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSV-Oy-e3S">
+                                <rect key="frame" x="79.666666666666686" y="44" width="216" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="VdC-Dx-Ov4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="yze-BN-4n5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0TU-HN-YsF"/>
+                            <constraint firstItem="nSV-Oy-e3S" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5fb-S4-FjN"/>
+                            <constraint firstItem="Pai-dM-WHZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xva-A4-epJ"/>
+                            <constraint firstItem="nSV-Oy-e3S" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="c5e-NM-rOA"/>
+                            <constraint firstItem="yze-BN-4n5" firstAttribute="top" secondItem="Pai-dM-WHZ" secondAttribute="bottom" constant="50" id="hkc-Jc-kKv"/>
+                            <constraint firstItem="Pai-dM-WHZ" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ntn-Xq-NiO"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Temperatuur" image="Temperatuur" id="bsX-u5-I1L"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="Label" destination="Pai-dM-WHZ" id="8A9-lV-Vdw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="128.80000000000001" y="-193.5960591133005"/>
+        </scene>
+        <!--Live-->
+        <scene sceneID="p0L-vQ-emz">
+            <objects>
+                <viewController title="Live" id="BYd-JA-6L3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="YX4-vq-eBn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4p-EP-HqK">
+                                <rect key="frame" x="152.66666666666666" y="44" width="70" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="nNc-xz-uWS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="c4p-EP-HqK" firstAttribute="top" secondItem="zvZ-Li-J6j" secondAttribute="top" id="2Hl-Mp-6Md"/>
+                            <constraint firstItem="c4p-EP-HqK" firstAttribute="centerX" secondItem="YX4-vq-eBn" secondAttribute="centerX" id="KEU-5r-LiA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="zvZ-Li-J6j"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Live" image="Live" id="3ym-Cn-4Qb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yjw-yv-k9k" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-586" y="461"/>
+        </scene>
+        <!--Licht-->
+        <scene sceneID="SDd-cN-Ev9">
+            <objects>
+                <viewController title="Licht" id="nem-nv-xrZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QCS-jq-vrV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licht" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P7e-YL-0Xn">
+                                <rect key="frame" x="145" y="44" width="85" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ToN-mH-LDk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="P7e-YL-0Xn" firstAttribute="top" secondItem="fnZ-Xd-k2s" secondAttribute="top" id="E1t-bT-G7x"/>
+                            <constraint firstItem="P7e-YL-0Xn" firstAttribute="centerX" secondItem="QCS-jq-vrV" secondAttribute="centerX" id="lI2-Bh-u9p"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fnZ-Xd-k2s"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Licht" image="Licht" id="ama-HG-N6s"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VUl-7c-CCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="129" y="460"/>
+        </scene>
+        <!--Groep-->
+        <scene sceneID="d9L-0s-NUf">
+            <objects>
+                <viewController title="Groep" id="PNY-dN-DO9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tgF-gm-NFH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groep" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="al7-WY-eiv">
+                                <rect key="frame" x="135" y="44" width="105.33333333333331" height="48"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="al7-WY-eiv" firstAttribute="centerX" secondItem="tgF-gm-NFH" secondAttribute="centerX" id="12L-Q1-HFV"/>
+                            <constraint firstItem="al7-WY-eiv" firstAttribute="top" secondItem="fzE-yo-wxi" secondAttribute="top" id="blZ-CY-7fc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fzE-yo-wxi"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Groep" image="Groep" id="81z-7k-V35"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0qk-qk-djD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="840.79999999999995" y="131.52709359605913"/>
+        </scene>
+        <!--Water-->
+        <scene sceneID="jJd-gK-dht">
+            <objects>
+                <viewController title="Water" id="X5G-vx-dGB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="okS-sK-XOd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Water" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UtL-6f-i5S">
+                                <rect key="frame" x="137" y="44" width="101" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ahH-sd-RBf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.3529411764705882" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="UtL-6f-i5S" firstAttribute="top" secondItem="UqE-r8-L2V" secondAttribute="top" id="T4B-Mr-dBP"/>
+                            <constraint firstItem="UtL-6f-i5S" firstAttribute="centerX" secondItem="okS-sK-XOd" secondAttribute="centerX" id="gcm-yc-J0u"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="UqE-r8-L2V"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Water" image="Water" id="b7R-hW-hci"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qx1-mk-yNo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-586" y="-193"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="7Qt-eJ-0y5">
+            <objects>
+                <tabBarController id="FJK-pm-gn4" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="9pL-my-TGT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="X5G-vx-dGB" kind="relationship" relationship="viewControllers" id="oZl-Rh-1x8"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="kKN-gv-Qhc"/>
+                        <segue destination="BYd-JA-6L3" kind="relationship" relationship="viewControllers" id="EjR-ci-wjX"/>
+                        <segue destination="nem-nv-xrZ" kind="relationship" relationship="viewControllers" id="1xO-Rq-r7k"/>
+                        <segue destination="PNY-dN-DO9" kind="relationship" relationship="viewControllers" id="4kG-US-EtK"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cv5-Hw-JJM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1540" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Groep" width="30" height="30"/>
+        <image name="Licht" width="30" height="30"/>
+        <image name="Live" width="30" height="30"/>
+        <image name="Temperatuur" width="30" height="30"/>
+        <image name="Water" width="30" height="30"/>
+    </resources>
 </document>
