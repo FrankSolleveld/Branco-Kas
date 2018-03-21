@@ -22,6 +22,8 @@
 		3A5801CD205FCF1B002C6A32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A5801D0205FCF1B002C6A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A5801D2205FCF1B002C6A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		953C0E2420627445006FDC89 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = "../../../../../Developer/realm-swift-3.1.0/ios/swift-4.0.2/Realm.framework"; sourceTree = "<group>"; };
+		953C0E2520627445006FDC89 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = "../../../../../Developer/realm-swift-3.1.0/ios/swift-4.0.2/RealmSwift.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			children = (
 				3A5801C5205FCF1B002C6A32 /* Test */,
 				3A5801C4205FCF1B002C6A32 /* Products */,
+				953C0E2320627445006FDC89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +65,15 @@
 				3A5801D2205FCF1B002C6A32 /* Info.plist */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		953C0E2320627445006FDC89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				953C0E2420627445006FDC89 /* Realm.framework */,
+				953C0E2520627445006FDC89 /* RealmSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,10 +287,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2BRJ7L3SUQ;
+				DEVELOPMENT_TEAM = 8S8EJS2M66;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = "-BRJ7L3SUQ.BrancoKas.App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -290,10 +302,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2BRJ7L3SUQ;
+				DEVELOPMENT_TEAM = 8S8EJS2M66;
 				INFOPLIST_FILE = Test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.Test;
+				PRODUCT_BUNDLE_IDENTIFIER = "-BRJ7L3SUQ.BrancoKas.App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

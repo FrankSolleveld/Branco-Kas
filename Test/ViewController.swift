@@ -10,7 +10,6 @@ import UIKit
 
 class ViewController: UIViewController {
     
-// Test
     @IBOutlet weak var label: UILabel!
     @IBAction func stepper(_ sender: UIStepper) {
         let temperature = Int(sender.value)
