@@ -9,34 +9,139 @@
 import UIKit
 
 class Licht: UIViewController {
+    func buttonState() {
+        
+        // Zet status van de knoppen
+    
+        
+    }
     
     // Link buttons in Light ViewController.
     @IBAction func redButton(_ sender: UIButton) {
+        
+        /*
+            Selecteer button
+            Controleer op andere actieve buttons
+            Zet actieve buttons uit
+                        Maak verbinding met de database
+                        Verstuur kleur naar database zodat lampje in de kas aangaat.
+                        Sluit verbinding.
+ 
+         */
+
     }
     
     @IBAction func orangeButton(_ sender: UIButton) {
+        
+        /*
+         Selecteer button
+         Controleer op andere actieve buttons
+         Zet actieve buttons uit
+         Maak verbinding met de database
+         Verstuur kleur naar database zodat lampje in de kas aangaat.
+         Sluit verbinding.
+         
+         */
+        
     }
     
     @IBAction func yellowButton(_ sender: UIButton) {
+        
+        /*
+         Selecteer button
+         Controleer op andere actieve buttons
+         Zet actieve buttons uit
+         Maak verbinding met de database
+         Verstuur kleur naar database zodat lampje in de kas aangaat.
+         Sluit verbinding.
+         
+         */
+        
     }
     
     @IBAction func greenButton(_ sender: UIButton) {
+        
+        /*
+         Selecteer button
+         Controleer op andere actieve buttons
+         Zet actieve buttons uit
+         Maak verbinding met de database
+         Verstuur kleur naar database zodat lampje in de kas aangaat.
+         Sluit verbinding.
+         
+         */
+        
     }
     
     @IBAction func blueButton(_ sender: UIButton) {
+        
+        /*
+         Selecteer button
+         Controleer op andere actieve buttons
+         Zet actieve buttons uit
+         Maak verbinding met de database
+         Verstuur kleur naar database zodat lampje in de kas aangaat.
+         Sluit verbinding.
+         
+         */
+        
     }
     
     @IBAction func darkBlueButton(_ sender: UIButton) {
+        
+        /*
+         Selecteer button
+         Controleer op andere actieve buttons
+         Zet actieve buttons uit
+         Maak verbinding met de database
+         Verstuur kleur naar database zodat lampje in de kas aangaat.
+         Sluit verbinding.
+         
+         */
+        
     }
     
     @IBAction func purpleButton(_ sender: UIButton) {
+        
+        /*
+         Selecteer button
+         Controleer op andere actieve buttons
+         Zet actieve buttons uit
+         Maak verbinding met de database
+         Verstuur kleur naar database zodat lampje in de kas aangaat.
+         Sluit verbinding.
+         
+         */
+        
     }
     
     @IBAction func pinkButton(_ sender: UIButton) {
+        
+        /*
+         Selecteer button
+         Controleer op andere actieve buttons
+         Zet actieve buttons uit
+         Maak verbinding met de database
+         Verstuur kleur naar database zodat lampje in de kas aangaat.
+         Sluit verbinding.
+         
+         */
+        
     }
     
     
     @IBAction func whiteButton(_ sender: UIButton) {
+        
+        /*
+         Selecteer button
+         Controleer op andere actieve buttons
+         Zet actieve buttons uit
+         Maak verbinding met de database
+         Verstuur kleur naar database zodat lampje in de kas aangaat.
+         Sluit verbinding.
+         
+         */
+        
     }
     
     
@@ -44,6 +149,18 @@ class Licht: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        func databaseConnection() {
+            
+            // Hier komt de connectie met de database. 
+            
+        }
+        
+//        let blueImage = UIImage(named: "Schermafbeelding 2018-03-21 om 13.00.30.png")
+//        let selectedImage = UIImage(named: "selected.png")
+
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
