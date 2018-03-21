@@ -9,7 +9,37 @@
 import UIKit
 
 class Licht: UIViewController {
-
+    
+    // Link buttons in Light ViewController.
+    @IBAction func redButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func orangeButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func yellowButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func greenButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func blueButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func darkBlueButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func purpleButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func pinkButton(_ sender: UIButton) {
+    }
+    
+    
+    @IBAction func whiteButton(_ sender: UIButton) {
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

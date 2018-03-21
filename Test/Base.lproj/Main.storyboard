@@ -122,6 +122,9 @@
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" image="Light Blue"/>
+                                <connections>
+                                    <action selector="blueButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="45I-DZ-zH7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmQ-fs-1RG">
                                 <rect key="frame" x="267.66666666666669" y="376.66666666666669" width="59" height="59"/>
@@ -130,6 +133,9 @@
                                     <constraint firstAttribute="height" constant="59" id="Qcz-36-5Sd"/>
                                 </constraints>
                                 <state key="normal" image="Blue"/>
+                                <connections>
+                                    <action selector="darkBlueButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="ER1-GZ-NfL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJf-Q6-QPi">
                                 <rect key="frame" x="158" y="485.66666666666674" width="59" height="59"/>
@@ -139,6 +145,9 @@
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" image="Pink"/>
+                                <connections>
+                                    <action selector="pinkButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="kU3-n7-CKR"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x04-Q0-3xa">
                                 <rect key="frame" x="267" y="485" width="59" height="59"/>
@@ -147,6 +156,9 @@
                                     <constraint firstAttribute="width" constant="59" id="QLB-q4-99S"/>
                                 </constraints>
                                 <state key="normal" image="White"/>
+                                <connections>
+                                    <action selector="whiteButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="VQf-h4-MgW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA9-8k-KyZ">
                                 <rect key="frame" x="49" y="486" width="59" height="59"/>
@@ -155,6 +167,9 @@
                                     <constraint firstAttribute="width" constant="59" id="R9Q-aS-Lpc"/>
                                 </constraints>
                                 <state key="normal" image="Purple"/>
+                                <connections>
+                                    <action selector="purpleButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="zy9-hk-jjl"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULL-cu-CBF">
                                 <rect key="frame" x="49" y="268" width="59" height="59"/>
@@ -163,6 +178,9 @@
                                     <constraint firstAttribute="height" constant="59" id="uC4-H7-5iw"/>
                                 </constraints>
                                 <state key="normal" image="Red"/>
+                                <connections>
+                                    <action selector="redButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="0hB-bP-Btt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aot-2L-fyf">
                                 <rect key="frame" x="158" y="267.66666666666669" width="59" height="59"/>
@@ -172,6 +190,9 @@
                                 </constraints>
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" image="Orange"/>
+                                <connections>
+                                    <action selector="orangeButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="3ci-wr-ANP"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8p-8x-ENr">
                                 <rect key="frame" x="267" y="267" width="59" height="59"/>
@@ -180,6 +201,9 @@
                                     <constraint firstAttribute="width" constant="59" id="e02-ca-pAz"/>
                                 </constraints>
                                 <state key="normal" image="Yellow"/>
+                                <connections>
+                                    <action selector="yellowButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="Lq3-sZ-O74"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g37-BC-GEe">
                                 <rect key="frame" x="49.666666666666657" y="376.66666666666669" width="59" height="59"/>
@@ -188,6 +212,9 @@
                                     <constraint firstAttribute="height" constant="59" id="yr9-f2-ozv"/>
                                 </constraints>
                                 <state key="normal" image="Green"/>
+                                <connections>
+                                    <action selector="greenButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="bJC-CO-4E2"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vau-BS-6zQ">
                                 <rect key="frame" x="172" y="581" width="30" height="21"/>
