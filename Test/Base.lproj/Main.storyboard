@@ -13,7 +13,7 @@
         <!--Temperature-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController title="Temperature" id="BYZ-38-t0r" customClass="ViewController" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Temperature" id="BYZ-38-t0r" customClass="Temperatuur" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -100,7 +100,7 @@
         <!--Licht-->
         <scene sceneID="SDd-cN-Ev9">
             <objects>
-                <viewController title="Licht" id="nem-nv-xrZ" sceneMemberID="viewController">
+                <viewController title="Licht" id="nem-nv-xrZ" customClass="Licht" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QCS-jq-vrV">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,11 +114,42 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4r-RS-ixd">
+                                <rect key="frame" x="158" y="376.66666666666669" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="59" id="4rU-Qv-Obk"/>
+                                    <constraint firstAttribute="width" constant="59" id="SZF-Bp-ccd"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                <state key="normal" image="Blue"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmQ-fs-1RG">
+                                <rect key="frame" x="268" y="376.66666666666669" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="PyK-Tp-91A"/>
+                                    <constraint firstAttribute="height" constant="59" id="Qcz-36-5Sd"/>
+                                </constraints>
+                                <state key="normal" image="Yellow"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g37-BC-GEe">
+                                <rect key="frame" x="48" y="376.66666666666669" width="59" height="59"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="59" id="mO4-rW-9KC"/>
+                                    <constraint firstAttribute="height" constant="59" id="yr9-f2-ozv"/>
+                                </constraints>
+                                <state key="normal" title="Red" image="Red"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="P7e-YL-0Xn" firstAttribute="top" secondItem="fnZ-Xd-k2s" secondAttribute="top" id="E1t-bT-G7x"/>
+                            <constraint firstItem="g37-BC-GEe" firstAttribute="leading" secondItem="fnZ-Xd-k2s" secondAttribute="leading" constant="48" id="Eer-3p-Tpe"/>
+                            <constraint firstItem="O4r-RS-ixd" firstAttribute="centerX" secondItem="QCS-jq-vrV" secondAttribute="centerX" id="dD0-nm-uCT"/>
+                            <constraint firstItem="O4r-RS-ixd" firstAttribute="centerY" secondItem="QCS-jq-vrV" secondAttribute="centerY" id="iBd-ns-2Mg"/>
+                            <constraint firstItem="fnZ-Xd-k2s" firstAttribute="trailing" secondItem="HmQ-fs-1RG" secondAttribute="trailing" constant="48" id="kMQ-D0-EpM"/>
                             <constraint firstItem="P7e-YL-0Xn" firstAttribute="centerX" secondItem="QCS-jq-vrV" secondAttribute="centerX" id="lI2-Bh-u9p"/>
+                            <constraint firstItem="HmQ-fs-1RG" firstAttribute="centerY" secondItem="QCS-jq-vrV" secondAttribute="centerY" id="wat-IG-as6"/>
+                            <constraint firstItem="g37-BC-GEe" firstAttribute="centerY" secondItem="QCS-jq-vrV" secondAttribute="centerY" id="zcP-Gc-8uu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fnZ-Xd-k2s"/>
                     </view>
@@ -126,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VUl-7c-CCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="129" y="460"/>
+            <point key="canvasLocation" x="128.80000000000001" y="459.60591133004925"/>
         </scene>
         <!--Groep-->
         <scene sceneID="d9L-0s-NUf">
@@ -137,7 +168,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groep" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="al7-WY-eiv">
-                                <rect key="frame" x="135" y="44" width="105.33333333333331" height="48"/>
+                                <rect key="frame" x="135" y="44" width="105" height="48"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -185,7 +216,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qx1-mk-yNo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-586" y="-193"/>
+            <point key="canvasLocation" x="-586.39999999999998" y="-193.5960591133005"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="7Qt-eJ-0y5">
@@ -210,10 +241,13 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Blue" width="118" height="118"/>
         <image name="Groep" width="30" height="30"/>
         <image name="Licht" width="30" height="30"/>
         <image name="Live" width="30" height="30"/>
+        <image name="Red" width="118" height="118"/>
         <image name="Temperatuur" width="30" height="30"/>
         <image name="Water" width="30" height="30"/>
+        <image name="Yellow" width="118" height="118"/>
     </resources>
 </document>

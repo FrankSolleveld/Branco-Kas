@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class Temperatuur: UIViewController {
     
 // Test
     @IBOutlet weak var label: UILabel!
