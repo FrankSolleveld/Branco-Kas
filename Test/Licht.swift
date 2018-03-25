@@ -9,12 +9,21 @@
 import UIKit
 
 class Licht: UIViewController {
-    func buttonState() {
-        
-        // Zet status van de knoppen
     
-        
-    }
+//    var buttonColour =
+//
+//    func buttonState(buttonColour) {
+//
+//            if buttonState.isSelected == true {
+//                \(buttonColour).isSelected = false
+//                buttonState.setImage(UIImage(named : "unselectedImage"), forState: UIControlState.Normal)
+//            }else {
+//                buttonState.isSelected = true
+//                buttonState.setImage(UIImage(named : "selectedImage"), forState: UIControlState.Normal)
+//            }
+//
+//
+//    }
     
     // Link buttons in Light ViewController.
     @IBAction func redButton(_ sender: UIButton) {
