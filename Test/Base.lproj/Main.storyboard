@@ -123,7 +123,7 @@
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" image="Light Blue"/>
                                 <connections>
-                                    <action selector="blueButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="45I-DZ-zH7"/>
+                                    <action selector="lightBlueButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="8RG-Ei-eTO"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmQ-fs-1RG" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
@@ -134,7 +134,7 @@
                                 </constraints>
                                 <state key="normal" image="Blue"/>
                                 <connections>
-                                    <action selector="darkBlueButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="ER1-GZ-NfL"/>
+                                    <action selector="darkBlueButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="0Le-dP-Afp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJf-Q6-QPi" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
@@ -146,7 +146,7 @@
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" image="Pink"/>
                                 <connections>
-                                    <action selector="pinkButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="kU3-n7-CKR"/>
+                                    <action selector="pinkButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="1D1-qd-e8Q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x04-Q0-3xa" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
@@ -157,7 +157,7 @@
                                 </constraints>
                                 <state key="normal" image="White"/>
                                 <connections>
-                                    <action selector="whiteButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="VQf-h4-MgW"/>
+                                    <action selector="whiteButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="BO4-il-PCE"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA9-8k-KyZ" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
@@ -168,7 +168,7 @@
                                 </constraints>
                                 <state key="normal" image="Purple"/>
                                 <connections>
-                                    <action selector="purpleButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="zy9-hk-jjl"/>
+                                    <action selector="purpleButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="pws-NS-VcB"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULL-cu-CBF" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
@@ -179,7 +179,7 @@
                                 </constraints>
                                 <state key="normal" image="Red"/>
                                 <connections>
-                                    <action selector="redButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="0hB-bP-Btt"/>
+                                    <action selector="redButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="0ZB-cf-koz"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aot-2L-fyf" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
@@ -191,7 +191,7 @@
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" image="Orange"/>
                                 <connections>
-                                    <action selector="orangeButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="3ci-wr-ANP"/>
+                                    <action selector="orangeButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="OdO-xy-2AA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8p-8x-ENr" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
@@ -202,7 +202,7 @@
                                 </constraints>
                                 <state key="normal" image="Yellow"/>
                                 <connections>
-                                    <action selector="yellowButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="Lq3-sZ-O74"/>
+                                    <action selector="yellowButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="ahK-YW-y4y"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g37-BC-GEe" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
@@ -213,7 +213,7 @@
                                 </constraints>
                                 <state key="normal" image="Green"/>
                                 <connections>
-                                    <action selector="greenButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="bJC-CO-4E2"/>
+                                    <action selector="greenButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="i24-gd-uQD"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vau-BS-6zQ">
@@ -250,17 +250,6 @@
                         <viewLayoutGuide key="safeArea" id="fnZ-Xd-k2s"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Licht" image="Licht" id="ama-HG-N6s"/>
-                    <connections>
-                        <outlet property="darkBlueButton" destination="HmQ-fs-1RG" id="ai5-6d-4mk"/>
-                        <outlet property="greenButton" destination="g37-BC-GEe" id="FVR-8H-qCw"/>
-                        <outlet property="lightBlueButton" destination="O4r-RS-ixd" id="uB8-mo-YB2"/>
-                        <outlet property="orangeButton" destination="aot-2L-fyf" id="M8I-cr-zEm"/>
-                        <outlet property="pinkButton" destination="bJf-Q6-QPi" id="pRT-j0-QzO"/>
-                        <outlet property="purpleButton" destination="ZA9-8k-KyZ" id="nwq-jq-M4Z"/>
-                        <outlet property="redButton" destination="ULL-cu-CBF" id="dHa-b0-gY5"/>
-                        <outlet property="whiteButton" destination="x04-Q0-3xa" id="2yd-Rk-bMu"/>
-                        <outlet property="yellowButton" destination="V8p-8x-ENr" id="dMD-IQ-XqH"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VUl-7c-CCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

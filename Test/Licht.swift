@@ -11,15 +11,35 @@ import UIKit
 class Licht: UIViewController {
     
     // Link alle knoppen met de code. Check ToggleTheButtons.swift voor de toggle functies. Misschien een IBAction.
-    @IBOutlet weak var redButton: ToggleTheButtons!
-    @IBOutlet weak var orangeButton: ToggleTheButtons!
-    @IBOutlet weak var yellowButton: ToggleTheButtons!
-    @IBOutlet weak var greenButton: ToggleTheButtons!
-    @IBOutlet weak var lightBlueButton: ToggleTheButtons!
-    @IBOutlet weak var darkBlueButton: ToggleTheButtons!
-    @IBOutlet weak var purpleButton: ToggleTheButtons!
-    @IBOutlet weak var pinkButton: ToggleTheButtons!
-    @IBOutlet weak var whiteButton: ToggleTheButtons!
+//    @IBOutlet weak var redButton: ToggleTheButtons!
+    
+    @IBAction func redButton(_ sender: ToggleTheButtons) {
+    }
+    @IBAction func orangeButton(_ sender: ToggleTheButtons) {
+    }
+    
+    @IBAction func yellowButton(_ sender: ToggleTheButtons) {
+    }
+    
+    @IBAction func greenButton(_ sender: ToggleTheButtons) {
+    }
+    
+    @IBAction func lightBlueButton(_ sender: ToggleTheButtons) {
+    }
+    
+    @IBAction func darkBlueButton(_ sender: ToggleTheButtons) {
+    }
+    
+    @IBAction func purpleButton(_ sender: ToggleTheButtons) {
+    }
+    
+    @IBAction func pinkButton(_ sender: ToggleTheButtons) {
+    }
+    
+    @IBAction func whiteButton(_ sender: ToggleTheButtons) {
+    }
+    
+    
     
 
     override func viewDidLoad() {

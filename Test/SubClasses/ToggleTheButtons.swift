@@ -10,7 +10,7 @@ import UIKit
 
 class ToggleTheButtons: UIButton {
 
-    var isOn = true
+    var isOn = false
     
     override init(frame: CGRect) {
         
@@ -28,7 +28,7 @@ class ToggleTheButtons: UIButton {
     
     func initButton(){
         // Initializes the button.
-        layer.borderWidth = 2.0
+        layer.borderWidth = 0.0
     
         addTarget(self, action: #selector(ToggleTheButtons.buttonPressed), for: .touchUpInside)
         
@@ -45,8 +45,8 @@ class ToggleTheButtons: UIButton {
         isOn = bool
         
         // Ternary operator. Na het vraagteken krijg je de waardes die worden uitgekeert in true:false (Boolean is nodig)
-        let borderColorOfTheButton = bool ? UIColor.black : .clear
-        layer.borderColor = (borderColorOfTheButton as! CGColor)
+        _ = bool ? (layer.borderWidth = 2.0) : (layer.borderWidth = 0.0)
+//        layer.borderColor = (borderColorOfTheButton as! CGColor)
         
         
     }
