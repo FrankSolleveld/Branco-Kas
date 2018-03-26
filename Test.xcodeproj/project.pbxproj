@@ -13,6 +13,7 @@
 		3A5801CE205FCF1B002C6A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5801CD205FCF1B002C6A32 /* Assets.xcassets */; };
 		3A5801D1205FCF1B002C6A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5801CF205FCF1B002C6A32 /* LaunchScreen.storyboard */; };
 		3A79889720627C4C00992478 /* Licht.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79889620627C4C00992478 /* Licht.swift */; };
+		95E39FEE2068DAE3005E032F /* ToggleTheButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A5801D0205FCF1B002C6A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A5801D2205FCF1B002C6A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A79889620627C4C00992478 /* Licht.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Licht.swift; sourceTree = "<group>"; };
+		95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTheButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		3A5801C5205FCF1B002C6A32 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				95E39FEC2068DAA5005E032F /* SubClasses */,
 				3A5801C6205FCF1B002C6A32 /* AppDelegate.swift */,
 				3A5801CA205FCF1B002C6A32 /* Main.storyboard */,
 				3A5801CD205FCF1B002C6A32 /* Assets.xcassets */,
@@ -71,10 +74,16 @@
 		953C0E2320627445006FDC89 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				953C0E2420627445006FDC89 /* Realm.framework */,
-				953C0E2520627445006FDC89 /* RealmSwift.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95E39FEC2068DAA5005E032F /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */,
+			);
+			path = SubClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +161,7 @@
 				3A5801C9205FCF1B002C6A32 /* Temperatuur.swift in Sources */,
 				3A5801C7205FCF1B002C6A32 /* AppDelegate.swift in Sources */,
 				3A79889720627C4C00992478 /* Licht.swift in Sources */,
+				95E39FEE2068DAE3005E032F /* ToggleTheButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
