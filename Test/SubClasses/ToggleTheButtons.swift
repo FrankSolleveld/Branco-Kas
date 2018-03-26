@@ -27,7 +27,7 @@ class ToggleTheButtons: UIButton {
     }
     
     func initButton(){
-        
+        // Initializes the button.
         layer.borderWidth = 2.0
     
         addTarget(self, action: #selector(ToggleTheButtons.buttonPressed), for: .touchUpInside)

@@ -10,7 +10,7 @@ import UIKit
 
 class Licht: UIViewController {
     
-    // Link alle knoppen met de code. Check ToggleTheButtons.swift voor de toggle functies.
+    // Link alle knoppen met de code. Check ToggleTheButtons.swift voor de toggle functies. Misschien een IBAction.
     @IBOutlet weak var redButton: ToggleTheButtons!
     @IBOutlet weak var orangeButton: ToggleTheButtons!
     @IBOutlet weak var yellowButton: ToggleTheButtons!
