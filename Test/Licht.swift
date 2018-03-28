@@ -32,7 +32,7 @@ class Licht: UIViewController {
         for button in self.view.subviews as [UIView] {
             if button is UIButton {
                 // Do whatever you want
-                Button.layer.borderWidth = Button.tag == sender.tag ? (Button.borderWidth = 2.0) : (Button.borderWidth = 0.0)
+               _ = button.tag == sender.tag ? (button.layer.borderWidth = 2.0) : (button.layer.borderWidth = 0.0)
             }
         }
     }
