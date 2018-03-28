@@ -114,7 +114,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4r-RS-ixd" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O4r-RS-ixd" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
                                 <rect key="frame" x="158" y="376.66666666666669" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59" id="4rU-Qv-Obk"/>
@@ -123,10 +123,10 @@
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" image="Light Blue"/>
                                 <connections>
-                                    <action selector="lightBlueButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="8RG-Ei-eTO"/>
+                                    <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="XbX-tb-qtk"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmQ-fs-1RG" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HmQ-fs-1RG" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
                                 <rect key="frame" x="267.66666666666669" y="376.66666666666669" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="59" id="PyK-Tp-91A"/>
@@ -134,10 +134,10 @@
                                 </constraints>
                                 <state key="normal" image="Blue"/>
                                 <connections>
-                                    <action selector="darkBlueButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="0Le-dP-Afp"/>
+                                    <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="PoD-Fb-M2Y"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJf-Q6-QPi" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
+                            <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJf-Q6-QPi" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
                                 <rect key="frame" x="158" y="485.66666666666674" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="59" id="liX-ac-u7T"/>
@@ -146,10 +146,10 @@
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" image="Pink"/>
                                 <connections>
-                                    <action selector="pinkButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="1D1-qd-e8Q"/>
+                                    <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="ubD-gk-esx"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x04-Q0-3xa" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
+                            <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x04-Q0-3xa" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
                                 <rect key="frame" x="267" y="485" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59" id="HDb-u7-oZS"/>
@@ -157,10 +157,10 @@
                                 </constraints>
                                 <state key="normal" image="White"/>
                                 <connections>
-                                    <action selector="whiteButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="BO4-il-PCE"/>
+                                    <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="gqg-dX-Gup"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA9-8k-KyZ" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZA9-8k-KyZ" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
                                 <rect key="frame" x="49" y="486" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59" id="DoX-RP-n8A"/>
@@ -168,7 +168,7 @@
                                 </constraints>
                                 <state key="normal" image="Purple"/>
                                 <connections>
-                                    <action selector="purpleButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="pws-NS-VcB"/>
+                                    <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="zTX-uh-aAN"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULL-cu-CBF" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
@@ -179,10 +179,10 @@
                                 </constraints>
                                 <state key="normal" image="Red"/>
                                 <connections>
-                                    <action selector="redButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="0ZB-cf-koz"/>
+                                    <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="cJR-xD-r02"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aot-2L-fyf" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aot-2L-fyf" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
                                 <rect key="frame" x="158" y="267.66666666666669" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59" id="OAW-z4-dez"/>
@@ -191,10 +191,10 @@
                                 <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                                 <state key="normal" image="Orange"/>
                                 <connections>
-                                    <action selector="orangeButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="OdO-xy-2AA"/>
+                                    <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="hXQ-BY-tcW"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8p-8x-ENr" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V8p-8x-ENr" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
                                 <rect key="frame" x="267" y="267" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="59" id="2hP-BU-hbQ"/>
@@ -202,10 +202,10 @@
                                 </constraints>
                                 <state key="normal" image="Yellow"/>
                                 <connections>
-                                    <action selector="yellowButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="ahK-YW-y4y"/>
+                                    <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="aNK-GM-ewJ"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g37-BC-GEe" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g37-BC-GEe" customClass="ToggleTheButtons" customModule="Test" customModuleProvider="target">
                                 <rect key="frame" x="49.666666666666657" y="376.66666666666669" width="59" height="59"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="59" id="mO4-rW-9KC"/>
@@ -213,7 +213,7 @@
                                 </constraints>
                                 <state key="normal" image="Green"/>
                                 <connections>
-                                    <action selector="greenButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="i24-gd-uQD"/>
+                                    <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="hpK-s4-QSq"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Red" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vau-BS-6zQ">
@@ -250,6 +250,17 @@
                         <viewLayoutGuide key="safeArea" id="fnZ-Xd-k2s"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Licht" image="Licht" id="ama-HG-N6s"/>
+                    <connections>
+                        <outletCollection property="toggleButtons" destination="ULL-cu-CBF" collectionClass="NSMutableArray" id="Mdq-AN-GYR"/>
+                        <outletCollection property="toggleButtons" destination="aot-2L-fyf" collectionClass="NSMutableArray" id="5fk-aJ-Cfv"/>
+                        <outletCollection property="toggleButtons" destination="V8p-8x-ENr" collectionClass="NSMutableArray" id="vnE-Eo-IjJ"/>
+                        <outletCollection property="toggleButtons" destination="g37-BC-GEe" collectionClass="NSMutableArray" id="3Jz-qy-p7w"/>
+                        <outletCollection property="toggleButtons" destination="O4r-RS-ixd" collectionClass="NSMutableArray" id="pxs-W7-dXj"/>
+                        <outletCollection property="toggleButtons" destination="HmQ-fs-1RG" collectionClass="NSMutableArray" id="z0D-Bb-IMw"/>
+                        <outletCollection property="toggleButtons" destination="ZA9-8k-KyZ" collectionClass="NSMutableArray" id="Cwo-gt-3M2"/>
+                        <outletCollection property="toggleButtons" destination="bJf-Q6-QPi" collectionClass="NSMutableArray" id="Xo3-km-yco"/>
+                        <outletCollection property="toggleButtons" destination="x04-Q0-3xa" collectionClass="NSMutableArray" id="2t4-U6-MuF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VUl-7c-CCI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

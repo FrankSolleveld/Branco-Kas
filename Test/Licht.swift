@@ -11,47 +11,14 @@ import UIKit
 class Licht: UIViewController {
     
     // Link alle knoppen met de code. Check ToggleTheButtons.swift voor de toggle functies. Misschien een IBAction.
-//    @IBOutlet weak var redButton: ToggleTheButtons!
-    
-    @IBAction func redButton(_ sender: ToggleTheButtons) {
-    }
-    @IBAction func orangeButton(_ sender: ToggleTheButtons) {
-    }
-    
-    @IBAction func yellowButton(_ sender: ToggleTheButtons) {
-    }
-    
-    @IBAction func greenButton(_ sender: ToggleTheButtons) {
-    }
-    
-    @IBAction func lightBlueButton(_ sender: ToggleTheButtons) {
-    }
-    
-    @IBAction func darkBlueButton(_ sender: ToggleTheButtons) {
-    }
-    
-    @IBAction func purpleButton(_ sender: ToggleTheButtons) {
-    }
-    
-    @IBAction func pinkButton(_ sender: ToggleTheButtons) {
-    }
-    
-    @IBAction func whiteButton(_ sender: ToggleTheButtons) {
-    }
-    
-    
-    
+
+    @IBOutlet var toggleButtons : [ToggleTheButtons]! = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        func databaseConnection() {
-            
-            // Hier komt de connectie met de database. 
-            
-        }
         
     }
 
@@ -60,4 +27,15 @@ class Licht: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    @IBAction func didTapButton(_ sender: UIButton) {
+        for button in self.view.subviews as [UIView] {
+            if button is UIButton {
+                // Do whatever you want
+                Button.layer.borderWidth = Button.tag == sender.tag ? (Button.borderWidth = 2.0) : (Button.borderWidth = 0.0)
+            }
+        }
+    }
+    
+    
 }

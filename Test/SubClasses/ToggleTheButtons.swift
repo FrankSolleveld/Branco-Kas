@@ -10,6 +10,7 @@ import UIKit
 
 class ToggleTheButtons: UIButton {
 
+    // Buttons are all off on load.
     var isOn = false
     
     override init(frame: CGRect) {
@@ -34,21 +35,27 @@ class ToggleTheButtons: UIButton {
         
     }
     
+    // What happens when we press the buttons.
     @objc func buttonPressed() {
-        
+
         activateButton(bool: !isOn)
-        
-    }
-    
-    func activateButton(bool: Bool) {
-        
-        isOn = bool
-        
-        // Ternary operator. Na het vraagteken krijg je de waardes die worden uitgekeert in true:false (Boolean is nodig)
-        _ = bool ? (layer.borderWidth = 2.0) : (layer.borderWidth = 0.0)
-//        layer.borderColor = (borderColorOfTheButton as! CGColor)
-        
-        
+
+
     }
 
+    // Toggles button on and off.
+    func activateButton(bool: Bool) {
+
+        isOn = bool
+        _ = layer.borderWidth = 0.0
+        // Ternary operator. true:false (Boolean is nodig)
+        _ = bool ? (layer.borderWidth = 2.0) : (layer.borderWidth = 0.0)
+//        layer.borderColor = (borderColorOfTheButton as! CGColor)
+
+
+    }
+
+    
+    
+    
 }

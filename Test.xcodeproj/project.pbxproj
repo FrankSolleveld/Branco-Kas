@@ -13,6 +13,7 @@
 		3A5801CE205FCF1B002C6A32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A5801CD205FCF1B002C6A32 /* Assets.xcassets */; };
 		3A5801D1205FCF1B002C6A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5801CF205FCF1B002C6A32 /* LaunchScreen.storyboard */; };
 		3A79889720627C4C00992478 /* Licht.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79889620627C4C00992478 /* Licht.swift */; };
+		953E2E84206B90760067F494 /* db.php in Resources */ = {isa = PBXBuildFile; fileRef = 953E2E83206B90760067F494 /* db.php */; };
 		95E39FEE2068DAE3005E032F /* ToggleTheButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		3A5801D0205FCF1B002C6A32 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A5801D2205FCF1B002C6A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A79889620627C4C00992478 /* Licht.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Licht.swift; sourceTree = "<group>"; };
+		953E2E83206B90760067F494 /* db.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = db.php; sourceTree = "<group>"; };
 		95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTheButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,6 +61,7 @@
 		3A5801C5205FCF1B002C6A32 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				953E2E86206B90920067F494 /* conn */,
 				95E39FEC2068DAA5005E032F /* SubClasses */,
 				3A5801C6205FCF1B002C6A32 /* AppDelegate.swift */,
 				3A5801CA205FCF1B002C6A32 /* Main.storyboard */,
@@ -76,6 +79,14 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		953E2E86206B90920067F494 /* conn */ = {
+			isa = PBXGroup;
+			children = (
+				953E2E83206B90760067F494 /* db.php */,
+			);
+			name = conn;
 			sourceTree = "<group>";
 		};
 		95E39FEC2068DAA5005E032F /* SubClasses */ = {
@@ -147,6 +158,7 @@
 			files = (
 				3A5801D1205FCF1B002C6A32 /* LaunchScreen.storyboard in Resources */,
 				3A5801CE205FCF1B002C6A32 /* Assets.xcassets in Resources */,
+				953E2E84206B90760067F494 /* db.php in Resources */,
 				3A5801CC205FCF1B002C6A32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
