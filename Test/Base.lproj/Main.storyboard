@@ -300,7 +300,7 @@
         <!--Water-->
         <scene sceneID="jJd-gK-dht">
             <objects>
-                <viewController title="Water" id="X5G-vx-dGB" sceneMemberID="viewController">
+                <viewController title="Water" id="X5G-vx-dGB" customClass="Water" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="okS-sK-XOd">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -314,17 +314,47 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuE-vs-MbJ">
+                                <rect key="frame" x="127" y="217" width="120" height="193"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="193" id="Gx2-L1-Iwu"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="waterdrop"/>
+                                <connections>
+                                    <action selector="waterToggle:" destination="EfL-hv-8Hy" eventType="touchUpInside" id="5Ab-QP-iM1"/>
+                                    <action selector="waterToggle:" destination="X5G-vx-dGB" eventType="touchUpInside" id="X8A-C6-0rl"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Er wordt nu geen water afgegeven." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZC6-WT-0QU">
+                                <rect key="frame" x="36" y="510" width="312" height="68"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="68" id="tzw-ru-cbL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.3529411764705882" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="XuE-vs-MbJ" firstAttribute="leading" secondItem="UqE-r8-L2V" secondAttribute="leading" constant="127" id="1SU-QW-dVb"/>
+                            <constraint firstItem="ZC6-WT-0QU" firstAttribute="leading" secondItem="UqE-r8-L2V" secondAttribute="leading" constant="36" id="7At-3S-6he"/>
+                            <constraint firstItem="UqE-r8-L2V" firstAttribute="bottom" secondItem="XuE-vs-MbJ" secondAttribute="bottom" constant="319" id="I3s-B8-QtX"/>
+                            <constraint firstItem="UqE-r8-L2V" firstAttribute="bottom" secondItem="ZC6-WT-0QU" secondAttribute="bottom" constant="151" id="M32-je-cDN"/>
                             <constraint firstItem="UtL-6f-i5S" firstAttribute="top" secondItem="UqE-r8-L2V" secondAttribute="top" id="T4B-Mr-dBP"/>
+                            <constraint firstItem="UqE-r8-L2V" firstAttribute="trailing" secondItem="ZC6-WT-0QU" secondAttribute="trailing" constant="27" id="UuB-dB-XBc"/>
                             <constraint firstItem="UtL-6f-i5S" firstAttribute="centerX" secondItem="okS-sK-XOd" secondAttribute="centerX" id="gcm-yc-J0u"/>
+                            <constraint firstItem="XuE-vs-MbJ" firstAttribute="centerX" secondItem="UtL-6f-i5S" secondAttribute="centerX" id="qSg-0u-Mf7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="UqE-r8-L2V"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Water" image="Water" id="b7R-hW-hci"/>
+                    <connections>
+                        <outlet property="waterLabel" destination="ZC6-WT-0QU" id="9oG-tu-duZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qx1-mk-yNo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="EfL-hv-8Hy" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-586.39999999999998" y="-193.5960591133005"/>
         </scene>
@@ -365,5 +395,6 @@
         <image name="Water" width="30" height="30"/>
         <image name="White" width="118" height="118"/>
         <image name="Yellow" width="118" height="118"/>
+        <image name="waterdrop" width="450" height="599"/>
     </resources>
 </document>

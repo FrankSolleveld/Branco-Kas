@@ -15,6 +15,8 @@
 		3A79889720627C4C00992478 /* Licht.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79889620627C4C00992478 /* Licht.swift */; };
 		953E2E84206B90760067F494 /* db.php in Resources */ = {isa = PBXBuildFile; fileRef = 953E2E83206B90760067F494 /* db.php */; };
 		957E52B92074AA9F00921266 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E52B82074AA9F00921266 /* Live.swift */; };
+		957E52BD2074B15400921266 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 957E52BC2074B15400921266 /* video.mp4 */; };
+		95B74ED42074C154003052AD /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B74ED32074C154003052AD /* Water.swift */; };
 		95E39FEE2068DAE3005E032F /* ToggleTheButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +31,8 @@
 		3A79889620627C4C00992478 /* Licht.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Licht.swift; sourceTree = "<group>"; };
 		953E2E83206B90760067F494 /* db.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = db.php; sourceTree = "<group>"; };
 		957E52B82074AA9F00921266 /* Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
+		957E52BC2074B15400921266 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		95B74ED32074C154003052AD /* Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water.swift; sourceTree = "<group>"; };
 		95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTheButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,6 +50,7 @@
 		3A5801BA205FCF1B002C6A32 = {
 			isa = PBXGroup;
 			children = (
+				957E52BC2074B15400921266 /* video.mp4 */,
 				3A5801C5205FCF1B002C6A32 /* Test */,
 				3A5801C4205FCF1B002C6A32 /* Products */,
 				953C0E2320627445006FDC89 /* Frameworks */,
@@ -96,6 +101,7 @@
 			children = (
 				95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */,
 				957E52B82074AA9F00921266 /* Live.swift */,
+				95B74ED32074C154003052AD /* Water.swift */,
 			);
 			path = SubClasses;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 				3A5801CE205FCF1B002C6A32 /* Assets.xcassets in Resources */,
 				953E2E84206B90760067F494 /* db.php in Resources */,
 				3A5801CC205FCF1B002C6A32 /* Main.storyboard in Resources */,
+				957E52BD2074B15400921266 /* video.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A5801C9205FCF1B002C6A32 /* Temperatuur.swift in Sources */,
+				95B74ED42074C154003052AD /* Water.swift in Sources */,
 				3A5801C7205FCF1B002C6A32 /* AppDelegate.swift in Sources */,
 				3A79889720627C4C00992478 /* Licht.swift in Sources */,
 				957E52B92074AA9F00921266 /* Live.swift in Sources */,

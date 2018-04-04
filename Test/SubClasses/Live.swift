@@ -14,7 +14,7 @@ import AVKit
 class Live: UIViewController {
 
     @IBAction func buttonToggled(_ sender: Any) {
-        
+  // Als op de knop gedrukt is, wordt de onderstaande code uitgevoert. 
         if let path = Bundle.main.path(forResource: "video", ofType: "mp4") {
             
             let video = AVPlayer(url: URL(fileURLWithPath: path))
