@@ -191,7 +191,7 @@
                                     <action selector="didTapButton:" destination="nem-nv-xrZ" eventType="touchUpInside" id="hpK-s4-QSq"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Red" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vau-BS-6zQ">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kies een kleur." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vau-BS-6zQ">
                                 <rect key="frame" x="49" y="583" width="277" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Vet-md-lT6"/>
