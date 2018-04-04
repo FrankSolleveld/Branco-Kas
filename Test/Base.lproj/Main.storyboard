@@ -281,13 +281,54 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XKI-lt-oqc">
+                                <rect key="frame" x="118" y="194" width="138" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="Wfm-fS-aLC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Groepsleden:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wef-II-y20">
+                                <rect key="frame" x="44" y="328" width="202" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="nyt-BJ-4ro"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jij, Sunnie, Hugo en Civan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOb-4r-4XB">
+                                <rect key="frame" x="44" y="396" width="273" height="174"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="GroupPicture" translatesAutoresizingMaskIntoConstraints="NO" id="ZH0-1L-NG3">
+                                <rect key="frame" x="71" y="578" width="240" height="128"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="al7-WY-eiv" firstAttribute="centerX" secondItem="tgF-gm-NFH" secondAttribute="centerX" id="12L-Q1-HFV"/>
+                            <constraint firstItem="fzE-yo-wxi" firstAttribute="trailing" secondItem="NOb-4r-4XB" secondAttribute="trailing" constant="58" id="GBt-Gk-06v"/>
+                            <constraint firstItem="wef-II-y20" firstAttribute="trailing" secondItem="al7-WY-eiv" secondAttribute="trailing" id="QeI-GL-JBp"/>
                             <constraint firstItem="al7-WY-eiv" firstAttribute="centerX" secondItem="tgF-gm-NFH" secondAttribute="centerX" id="Qr1-0p-7lO"/>
+                            <constraint firstItem="fzE-yo-wxi" firstAttribute="bottom" secondItem="NOb-4r-4XB" secondAttribute="bottom" constant="159" id="SMD-2q-vpu"/>
+                            <constraint firstItem="NOb-4r-4XB" firstAttribute="leading" secondItem="wef-II-y20" secondAttribute="leading" id="bSo-T6-cJq"/>
                             <constraint firstItem="al7-WY-eiv" firstAttribute="top" secondItem="fzE-yo-wxi" secondAttribute="top" id="blZ-CY-7fc"/>
+                            <constraint firstItem="ZH0-1L-NG3" firstAttribute="top" secondItem="NOb-4r-4XB" secondAttribute="bottom" constant="8" symbolic="YES" id="eJh-c6-RUX"/>
+                            <constraint firstItem="NOb-4r-4XB" firstAttribute="top" secondItem="wef-II-y20" secondAttribute="bottom" constant="8" symbolic="YES" id="f3G-6J-ZiF"/>
+                            <constraint firstItem="fzE-yo-wxi" firstAttribute="bottom" secondItem="XKI-lt-oqc" secondAttribute="bottom" constant="385" id="fGf-Qe-Er2"/>
+                            <constraint firstItem="ZH0-1L-NG3" firstAttribute="leading" secondItem="fzE-yo-wxi" secondAttribute="leading" constant="71" id="hE2-mV-dr2"/>
+                            <constraint firstItem="fzE-yo-wxi" firstAttribute="bottom" secondItem="wef-II-y20" secondAttribute="bottom" constant="341" id="hfU-zw-Xho"/>
+                            <constraint firstItem="wef-II-y20" firstAttribute="leading" secondItem="fzE-yo-wxi" secondAttribute="leading" constant="44" id="j3o-I0-KAG"/>
                             <constraint firstItem="al7-WY-eiv" firstAttribute="top" secondItem="fzE-yo-wxi" secondAttribute="top" id="jgA-5p-ARv"/>
+                            <constraint firstItem="fzE-yo-wxi" firstAttribute="trailing" secondItem="ZH0-1L-NG3" secondAttribute="trailing" constant="64" id="kcJ-vI-uKK"/>
+                            <constraint firstItem="fzE-yo-wxi" firstAttribute="bottom" secondItem="ZH0-1L-NG3" secondAttribute="bottom" constant="23" id="kyu-Fa-CAH"/>
+                            <constraint firstItem="XKI-lt-oqc" firstAttribute="centerX" secondItem="al7-WY-eiv" secondAttribute="centerX" id="o4N-XI-40R"/>
+                            <constraint firstItem="XKI-lt-oqc" firstAttribute="leading" secondItem="fzE-yo-wxi" secondAttribute="leading" constant="118" id="yhd-bO-BOs"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fzE-yo-wxi"/>
                     </view>
@@ -295,7 +336,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0qk-qk-djD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="840" y="130.98591549295776"/>
+            <point key="canvasLocation" x="839.20000000000005" y="130.78817733990149"/>
         </scene>
         <!--Water-->
         <scene sceneID="jJd-gK-dht">
@@ -384,6 +425,7 @@
         <image name="Blue" width="118" height="118"/>
         <image name="Green" width="118" height="118"/>
         <image name="Groep" width="30" height="30"/>
+        <image name="GroupPicture" width="1296" height="729"/>
         <image name="Licht" width="30" height="30"/>
         <image name="Light Blue" width="118" height="118"/>
         <image name="Live" width="30" height="30"/>
