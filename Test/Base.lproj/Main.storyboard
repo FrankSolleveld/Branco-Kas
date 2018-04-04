@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FJK-pm-gn4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FJK-pm-gn4">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -69,13 +69,13 @@
         <!--Live-->
         <scene sceneID="p0L-vQ-emz">
             <objects>
-                <viewController title="Live" id="BYd-JA-6L3" sceneMemberID="viewController">
+                <viewController title="Live" id="BYd-JA-6L3" customClass="Live" customModule="Test" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YX4-vq-eBn">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Live" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4p-EP-HqK">
-                                <rect key="frame" x="152.66666666666666" y="44" width="70" height="48"/>
+                                <rect key="frame" x="153" y="44" width="70" height="48"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="nNc-xz-uWS"/>
                                 </constraints>
@@ -83,11 +83,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shy-Nb-4eT">
+                                <rect key="frame" x="132" y="387" width="125" height="55"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="Go LIVE"/>
+                                <connections>
+                                    <action selector="buttonToggled:" destination="BYd-JA-6L3" eventType="touchUpInside" id="2BC-jo-yrI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="c4p-EP-HqK" firstAttribute="top" secondItem="zvZ-Li-J6j" secondAttribute="top" id="2Hl-Mp-6Md"/>
                             <constraint firstItem="c4p-EP-HqK" firstAttribute="centerX" secondItem="YX4-vq-eBn" secondAttribute="centerX" id="KEU-5r-LiA"/>
+                            <constraint firstItem="zvZ-Li-J6j" firstAttribute="bottom" secondItem="shy-Nb-4eT" secondAttribute="bottom" constant="287" id="fFF-cl-Wzr"/>
+                            <constraint firstItem="shy-Nb-4eT" firstAttribute="leading" secondItem="zvZ-Li-J6j" secondAttribute="leading" constant="132" id="fqH-xV-nCj"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zvZ-Li-J6j"/>
                     </view>

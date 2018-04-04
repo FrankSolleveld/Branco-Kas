@@ -14,6 +14,7 @@
 		3A5801D1205FCF1B002C6A32 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A5801CF205FCF1B002C6A32 /* LaunchScreen.storyboard */; };
 		3A79889720627C4C00992478 /* Licht.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A79889620627C4C00992478 /* Licht.swift */; };
 		953E2E84206B90760067F494 /* db.php in Resources */ = {isa = PBXBuildFile; fileRef = 953E2E83206B90760067F494 /* db.php */; };
+		957E52B92074AA9F00921266 /* Live.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957E52B82074AA9F00921266 /* Live.swift */; };
 		95E39FEE2068DAE3005E032F /* ToggleTheButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		3A5801D2205FCF1B002C6A32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A79889620627C4C00992478 /* Licht.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Licht.swift; sourceTree = "<group>"; };
 		953E2E83206B90760067F494 /* db.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = db.php; sourceTree = "<group>"; };
+		957E52B82074AA9F00921266 /* Live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Live.swift; sourceTree = "<group>"; };
 		95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleTheButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				95E39FED2068DAE3005E032F /* ToggleTheButtons.swift */,
+				957E52B82074AA9F00921266 /* Live.swift */,
 			);
 			path = SubClasses;
 			sourceTree = "<group>";
@@ -124,7 +127,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Hugo Schmidt";
 				TargetAttributes = {
 					3A5801C2205FCF1B002C6A32 = {
@@ -173,6 +176,7 @@
 				3A5801C9205FCF1B002C6A32 /* Temperatuur.swift in Sources */,
 				3A5801C7205FCF1B002C6A32 /* AppDelegate.swift in Sources */,
 				3A79889720627C4C00992478 /* Licht.swift in Sources */,
+				957E52B92074AA9F00921266 /* Live.swift in Sources */,
 				95E39FEE2068DAE3005E032F /* ToggleTheButtons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +217,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -220,6 +225,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -270,6 +276,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -277,6 +284,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
