@@ -2,7 +2,7 @@
 - CLE3 App Project
 
 Branco Kas is a test app made solely in Swift to show students what is possible by writing simple code.
-This app is meant as a controller for a Kamergotichi-like plant. You, together with a team, need to take care of a little plant which is growing
+This app is meant as a controller for a Kamergotchi-like plant. You, together with a team, need to take care of a little plant which is growing
 in the Brancoplein in Rotterdam, the Netherlands. 
 
 This app is open source. This means that you can use is for whatever purposes you see fit. 
